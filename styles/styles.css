@@ -1,0 +1,37 @@
+/* * {
+    outline: 2px red solid;
+} */
+
+main {
+    max-width: 60rem;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside {
+    width: 50%;
+    margin: auto;
+    border: 1px solid cornflowerblue;
+    padding: 1rem;
+    background-color: #eee;
+    color: darkblue;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
