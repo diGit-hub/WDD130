@@ -4,9 +4,22 @@ main {
     text-align: center;
 }
 
+nav {
+    background-color: aliceblue;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: black;
+}
+
 main img {
     width: 150px;
     height: auto;
+    border: 2px #000 solid;
+    padding: 10px;
+    box-shadow: 0 0 30px #000;
 }
 
 aside {
