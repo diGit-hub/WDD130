@@ -1,9 +1,10 @@
-/* * {
+* {
     outline: 2px red solid;
-} */
-
+}
 main {
     max-width: 60rem;
+    margin: auto;
+    text-align: center;
 }
 
 main img {
