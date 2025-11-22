@@ -35,6 +35,10 @@ nav, p, section, article {
   padding: 0.5rem;
 }
 
+footer p {
+  color: var(--secondary-color);
+}
+
 .socialmedia a {
   text-decoration: none;
 }
