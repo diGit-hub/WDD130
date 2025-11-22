@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #003049;
+  --secondary-color: #d62828;
+  --accent1-color: #0057B8;
+  --accent2-color: #fcbf49;
+  
+  --heading-font: "Times New Roman", serif;
+  --body-font: Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--primary-color);
+  padding: 0;
+}
+
+header, main, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav, p, section, article {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  top: 85px;
+  right: 40px;
+  left: 40px;
+  background-color: var(--accent2-color);
+  padding: 20px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+}
+
+.hero article p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
