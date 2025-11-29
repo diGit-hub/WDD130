@@ -1,0 +1,108 @@
+commit 23c44f16f280ea595a1907a66369e3717326e9de
+Author: diGit-hub <gabrielsud.m.s@gmail.com>
+Date:   Sat Nov 22 16:38:12 2025 -0300
+
+    feat: add initial rafting website content and update main index page with new links and metadata
+
+diff --git a/index.html b/index.html
+index d1c0d49..b0ba315 100644
+--- a/index.html
++++ b/index.html
+@@ -1,9 +1,9 @@
+ <!DOCTYPE html>
+-<html lang="en">
++<html lang="en-US">
+ 
+ <head>
+     <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description"
+         content="This page is for me, Gabriel Mercês Silva, to complete the wdd130 course at BYU. This is a home page">
+     <meta name="author" content="Gabriel Mercês Silva">
+@@ -16,7 +16,7 @@
+         <nav>
+             <a href="#">Home</a>
+             <a href="wwr/">Rafting Website</a>
+-            <a href="www.linkedin.com/in/gabriel-mercês-791384192">LinkedIn</a>
++            <a href="https://www.linkedin.com/in/gabriel-mercês-791384192">LinkedIn</a>
+             <a href="https://facebook.com">Facebook</a>
+         </nav>
+     </header>
+@@ -48,7 +48,7 @@
+         <p>Bahia is a state from Brazil known as a hot place and also famous by it's regional food Acarajé.</p>
+     </aside>
+     <footer>
+-        <p>©2025 📚️ Gabriel Mercês Silva 📚️ Bahia - Brazil</p>
++        <p>Copyright © Brigham Young University-Idaho | All rights reserved</p>
+     </footer>
+ </body>
+ 
+
+commit 2beb10674b8714daace32183a6bca5e95d91c48f
+Author: diGit-hub <gabrielsud.m.s@gmail.com>
+Date:   Sat Nov 22 12:23:53 2025 -0300
+
+    refactor: update homepage content and links, and refactor global styles with new utility classes
+
+diff --git a/index.html b/index.html
+index 24c8ae9..d1c0d49 100644
+--- a/index.html
++++ b/index.html
+@@ -16,15 +16,33 @@
+         <nav>
+             <a href="#">Home</a>
+             <a href="wwr/">Rafting Website</a>
++            <a href="www.linkedin.com/in/gabriel-mercês-791384192">LinkedIn</a>
++            <a href="https://facebook.com">Facebook</a>
+         </nav>
+     </header>
+     <main>
+         <h1>Gabriel Mercês Silva | WDD 130</h1>
+         <img src="./images/profile.jpg" alt="Gabriel Mercês Silva" width="200">
+-        <p>My name is Gabriel, I'm from Brazil. I'm 21 years old and I'm pursuing a bachelor's degree in software
+-            development.</p>
++        <p>My name is Gabriel Mercês Silva, and I am a software developer from Brazil with two years of practical
++            experience building mobile applications using React Native. I am currently pursuing a Bachelor's degree in
++            Software Development at BYU-Idaho, focusing on web and computational programming. My expertise lies in
++            implementing user interfaces and integrating external services, with growing proficiency in JavaScript,
++            TypeScript, and modern web technologies like React, Next.js, and Express. I have experience collaborating
++            with international remote teams, using Git-based workflows and agile practices, most notably as a volunteer
++            Full Stack Developer for the non-profit "Redeem These Ashes." I am passionate about creating complete
++            solutions from front-end to back-end and am always eager to learn new technologies.</p>
++        <ul class="box">
++            <li><a href="https://www.churchofjesuschrist.org/temples/details/recife-brazil-temple?lang=eng"
++                    target="_blank">Recife Brazil Temple</a></li>
++            <li><a href="https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng"
++                    target="_blank">Campinas Brazil Temple</a></li>
++            <li><a href="https://www.churchofjesuschrist.org/temples/details/salvador-brazil-temple?lang=eng"
++                    target="_blank">Salvador Brazil Temple</a></li>
++            <li><a href="https://www.churchofjesuschrist.org/temples/details/taipei-taiwan-temple?lang=eng"
++                    target="_blank">Taipei Taiwan Temple</a></li>
++        </ul>
+     </main>
+-    <aside>
++    <aside class="box">
+         <h2>Bahia, Brazil</h2>
+         <img src="./images/bahia.png" alt="Bahia" />
+         <p>Bahia is a state from Brazil known as a hot place and also famous by it's regional food Acarajé.</p>
+
+commit 69d0f04a95dbf39c875044f78ed581c18db6d774
+Author: diGit-hub <gabrielsud.m.s@gmail.com>
+Date:   Sat Nov 8 20:59:09 2025 -0300
+
+    Add alt to img
+
+diff --git a/index.html b/index.html
+index dcc45d2..24c8ae9 100644
+--- a/index.html
++++ b/index.html
+@@ -26,7 +26,7 @@
+     </main>
+     <aside>
+         <h2>Bahia, Brazil</h2>
+-        <img src="./images/bahia.png" />
++        <img src="./images/bahia.png" alt="Bahia" />
+         <p>Bahia is a state from Brazil known as a hot place and also famous by it's regional food Acarajé.</p>
+     </aside>
+     <footer>
